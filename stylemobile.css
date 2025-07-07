@@ -1,0 +1,912 @@
+@media (max-width: 767px) {
+
+    .desktop {
+        display: none !important;
+
+    }
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: "regular", Arial, sans-serif;
+
+
+    }
+
+    .mobileview {
+        display: block !important;
+    }
+
+    .mobileview .mobileheader {
+        display: block !important;
+        color: rgb(15, 17, 17);
+        position: relative;
+        font-family: "regular", Arial, sans-serif;
+        font-size: 12px;
+        line-height: 12px;
+        min-width: 200px;
+    }
+
+    .nav-logobarmb {
+        display: flex !important;
+        position: relative;
+        height: 48px;
+        width: 100%;
+        border-bottom: 1px solid #232f3e;
+        background-color: #232f3e;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        font-size: 12px;
+        line-height: 12px;
+        font-family: "regular", Arial, sans-serif;
+
+    }
+
+    .nav-logobarmb .mbnav-left {
+        display: flex !important;
+        position: relative;
+        width: auto;
+        flex-shrink: 0;
+        flex-flow: row nowrap;
+        color: rgb(15, 17, 17);
+        font-size: 12px;
+        line-height: 12px;
+
+
+    }
+
+    .mbnav-left .mbnavsidelines {
+        padding: 14px 14px;
+        color: rgb(33, 998, 161);
+        font-size: 12px;
+        line-height: 12px;
+
+    }
+
+
+    .mbnavsidelines span {
+        display: block;
+        background-image: url(assets/sidearow.png);
+        background-size: 275px;
+        width: 20px;
+        height: 20px;
+        background-position: -20px -378px;
+        background-repeat: no-repeat;
+    }
+
+    .mbamazonlogo {
+        display: block;
+        margin-left: auto;
+        position: relative;
+        margin-top: 13px;
+    }
+
+    .mbamazonlogowrapper {
+        display: flex;
+        cursor: pointer;
+        color: rgb(33, 98, 161);
+        line-height: 12px;
+    }
+
+    .mbamazonimg {
+        background-image: url(assets/mbamazon.png);
+        background-size: 275px;
+        background-repeat: no-repeat;
+        text-indent: -500px;
+        padding: 10px 40px 0 20px;
+        background-position: -185px -236px;
+        width: 80px;
+        cursor: pointer;
+        height: 28px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .mbamazonin {
+        display: block;
+        margin: 1px 0 0 1px;
+        font-size: 13.5px;
+        color: #fff;
+        line-height: 14px;
+        padding-top: 1px;
+
+
+    }
+
+    .mbnav-right {
+        display: flex;
+        position: relative;
+        width: auto;
+        flex-flow: row-reverse wrap;
+        overflow: hidden;
+        min-width: 60px;
+        font-size: 12px;
+        line-height: 12px;
+        font-family: "regular", Arial, sans-serif;
+
+    }
+
+    .nav-logobarmb .mbnav-right :nth-child(1) {
+        order: 2;
+    }
+
+
+    .mbsigninwrapper {
+        display: flex;
+        margin-left: 5px;
+        line-height: 48px;
+        font-size: 13px;
+        color: #fff;
+        cursor: pointer;
+        font-family: "regular", Arial, sans-serif;
+    }
+
+
+    .nav-logobarmb .mbnav-right :nth-child(2) {
+        order: 1;
+    }
+
+    .mbnnav-sicon {
+        display: flex;
+        padding: 9px 0 12px 4px;
+        position: relative;
+        width: 39px;
+    }
+
+    .mbnnav-sicon span {
+        display: block;
+        background-image: url(assets/siginmobile.png);
+        background-size: 275px;
+        background-position: -141px -300px;
+        width: 35px;
+        height: 27px;
+        background-repeat: no-repeat;
+    }
+
+    .mbnavcart {
+        padding-left: 7px;
+    }
+
+
+    .nav-logobarmb .mbnav-right :nth-child(3) {
+        order: 0;
+    }
+
+    .mbnavcart {
+        padding-left: 7px;
+        display: flex;
+        padding-top: 10px;
+        padding-right: 18px;
+        padding-bottom: 18px;
+
+    }
+
+    .cartsize {
+        width: 37px;
+        cursor: pointer;
+
+    }
+
+    .cartsize .cartimagge {
+        display: block;
+        background-image: url(assets/siginmobile.png);
+        background-size: 275px;
+        background-position: -10px -240px;
+        background-repeat: no-repeat;
+        width: 37px;
+        height: 27px;
+        font-size: 12px;
+        line-height: 12px;
+        position: absolute;
+
+
+
+    }
+
+    .mbzeroicon {
+        display: block;
+        padding: 0 0 0 6px;
+        font-size: 16px;
+        color: #f08804;
+        text-align: center;
+        line-height: 10px;
+        font-weight: 700;
+        text-decoration: none;
+        font-family: "bold", Arial, sans-serif;
+    }
+
+    .mbnav-searchbarwrapper {
+        display: flex;
+        height: 50px;
+
+    }
+
+    .mbnavsearchbarform {
+        display: block;
+        background: #232f3e;
+        padding: 2px 10px 5px 10px;
+        position: relative;
+        height: 50px;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        margin-bottom: 0;
+        flex: 1;
+    }
+
+    .mbnavfill {
+        width: auto;
+        overflow: hidden;
+        white-space: nowrap;
+        border-radius: 8px 12px 12px 8px;
+        height: 44px;
+        margin: 0;
+        position: relative;
+        background: #fff;
+
+    }
+
+
+    .mbnavfill input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        direction: ltr;
+        display: block;
+        padding: 0 95px 0 10px;
+        color: #000;
+        font-size: 15px;
+        border: 0;
+        outline: 0;
+
+    }
+
+    .mbnav-rightyellow {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        width: auto;
+    }
+
+    .navyellowwrapper {
+        background-color: #febd69;
+        border-radius: 8px 8px 8px 8px;
+        position: relative;
+        height: 44px;
+        width: 50px;
+        margin: 2px 10px 5px 5px;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .navyellow-input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        z-index: 10;
+        border: 0;
+        background-color: transparent;
+
+    }
+
+    .navyellow-input span {
+        background-image: url(assets/searchmb.png);
+        background-size: 275px;
+        position: absolute;
+        top: 10px;
+        left: 12px;
+        background-position: -73px -239px;
+        width: 27px;
+        height: 25px;
+        color: unset;
+        filter: invert(100%);
+    }
+
+    .mblocationrow {
+        background-color: #37475A;
+        height: 44px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .mblocationrowwrapper {
+        display: flex;
+        padding: 12px 10px 12px 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .mblocarrowicon {
+        background-image: url(assets/sidearow.png);
+        background-size: 275px;
+        background-position: -75px -340px;
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .locmbtext {
+        height: 20px;
+        display: inline-block;
+        width: 85%;
+        font-size: 12px;
+        line-height: 12px;
+
+
+    }
+
+    .locmbtext span {
+        font-size: 13px;
+        line-height: 20px;
+        color: #FFF;
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    /* ----------------------------grid sec-------------- */
+
+    .mbgridsectionstarts {
+        box-sizing: border-box;
+        color: rgb(15, 17, 17);
+        font-size: 15px;
+        line-height: 20.25px;
+    }
+
+    .mbgridconatiner {
+
+        display: grid;
+        align-items: stretch;
+        justify-items: stretch;
+        grid-auto-flow: dense;
+        grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: 0;
+        align-content: flex-start;
+        width: calc(100vw - 8px + 4px);
+        margin: 0 0 0 4px;
+        padding: 0;
+        padding-right: 4px;
+    }
+
+
+    .primembsection {
+        grid-column: 1 / -1;
+        margin-left: -4px;
+        margin-right: -4px;
+        padding-left: 0;
+        padding-right: 0;
+        position: sticky;
+        top: 0;
+        overflow-x: hidden;
+        border-bottom: 0 !important;
+
+    }
+
+    .primesecmargin {
+        margin-bottom: 8px !important;
+        box-sizing: border-box;
+    }
+
+    .primerelativediv {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+
+    }
+
+
+    .mbprimeflexdiv:last-child {
+        margin-bottom: 0;
+    }
+
+    .mbprimeflexdiv {
+        min-height: 0;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        background-color: #fff;
+        box-shadow: 0 1px 2px 0 rgba(17, 17, 17, .15);
+    }
+
+    .mbprimesechorizontaldiv {
+        display: flex;
+        align-items: center;
+        overflow-y: hidden;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+
+    }
+
+    .primebuttonsec {
+        padding-left: 8px;
+        margin-right: 4px;
+        flex-shrink: 0;
+        margin-bottom: 0;
+
+    }
+
+    .primebuttonwrapper {
+        display: inline-block;
+        font-size: 14px !important;
+        line-height: 20px !important;
+        margin-inline-start: 4px;
+        padding: 6px 0;
+        box-sizing: border-box;
+
+
+    }
+
+    .primenavmbspan {
+        display: inline-block;
+        vertical-align: middle !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+    .imageprimefinalblock {
+        display: inline-block;
+        background-image: url(assets/mbprimeimage.png);
+        margin-inline-end: 4px;
+        background-position-x: -277px;
+        background-position-y: -224px;
+        background-repeat: no-repeat;
+        background-size: 512px 256px;
+        vertical-align: baseline;
+        margin-bottom: -1.75px;
+        height: 12px;
+        width: 42px;
+        box-sizing: border-box;
+
+
+    }
+
+    .buttonwrappafterprime {
+        display: inline-block;
+        line-height: 0 !important;
+        vertical-align: middle !important;
+        font-size: 14px;
+        cursor: pointer;
+
+
+
+    }
+
+    .buttonwrappafterprime::after {
+        display: inline-block;
+        content: url(assets/primeafterbutton.svg);
+        line-height: 0 !important;
+        cursor: pointer;
+        transform: translateX(-4px);
+    }
+
+    .mbsamsungsection {
+        display: block !important;
+        margin-right: 4px;
+        margin-bottom: 0 !important;
+        box-sizing: border-box;
+        line-height: 20.25px;
+        font-size: 15px;
+        transform: translateX(-4px);
+
+
+    }
+
+    .samsungflex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 9px;
+        border-radius: 8px;
+        margin-right: 4px;
+        height: 32px;
+        background-color: #e7f4f5;
+        /* border-color: #c7e4e8; */
+        width: auto;
+        border: 1px solid #e8e8e8;
+        text-align: center;
+        font-size: 15px;
+        vertical-align: bottom;
+        line-height: 20.25px;
+        border: 1.15px solid #e8e8e8;
+        border-color: rgb(199, 228, 232);
+
+    }
+
+    .samsungflex {
+        max-width: 115px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: text-bottom;
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        line-height: 20px !important;
+        color: rgb(33, 98, 161);
+    }
+
+    .samsungflex span {
+        transform: translateX(0.25px);
+    }
+
+
+    .flitersecmb {
+        display: flex !important;
+        align-items: center;
+        text-align: center;
+        text-decoration: none !important;
+        vertical-align: middle;
+        background-color: white;
+        border-color: #c7e4e8;
+        height: 46px;
+        border-radius: 0;
+        border: 0;
+        margin: 0;
+        padding: 0 12px;
+        outline: 0;
+        cursor: pointer;
+        box-sizing: border-box;
+        box-shadow: inset 1px 0 0 0 #e6e6e6;
+
+    }
+
+    .flitersecspan {
+        color: #007185 !important;
+        border-radius: 99px;
+        box-shadow: none;
+        position: relative;
+        display: block;
+        height: 100%;
+        overflow: hidden;
+
+    }
+
+    .filterbuttonmb {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        transform: translateY(2px);
+    }
+
+    .filter2div {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .filterspansection {
+        font-size: 14px !important;
+        line-height: 20px !important;
+        color: #007185 !important;
+    }
+
+    .twospansec {
+        font-size: 14px !important;
+        line-height: 20px !important;
+        margin-left: 6px;
+        color: #007185 !important;
+        /* font-weight: 400;
+        text-align: center; */
+
+    }
+
+    .filtermblastsec {
+        width: 10px;
+        height: 10px;
+        margin-top: 2px;
+        margin-left: 6px;
+        color: #007185 !important;
+        transform: rotate(0);
+        transform-origin: center 40%;
+        transition: transform .25s ease-in-out;
+
+    }
+
+    .filtermblastsec::before {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 2px;
+        top: 50%;
+        right: 50%;
+        margin-right: -1px;
+        margin-top: -1px;
+        background-color: #007185;
+        transform-origin: 4px 1px;
+        transform: rotate(45deg);
+        font-size: 1.6rem;
+        line-height: 2rem;
+        text-align: center;
+
+    }
+
+    .filtermblastsec::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 2px;
+        top: 50%;
+        left: 50%;
+        margin-left: -1px;
+        margin-top: -1px;
+        background-color: #007185;
+        transform-origin: 1px 1px;
+        transform: rotate(-45deg);
+        font-size: 1.6rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+
+    /* ------------------------------------- */
+    .checksingleline {
+        grid-column: 1 / -1;
+        margin-left: -4px;
+        margin-right: -4px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 4px !important;
+        height: calc(100% - 4px);
+        padding-right: 8px !important;
+        padding-left: 8px !important;
+        margin-bottom: 0 !important;
+        font-size: 15px;
+        line-height: 20.25px;
+        border-bottom: 0 !important;
+    }
+
+    .checklinewrapper {
+        font-size: 12px !important;
+        line-height: 16px !important;
+        width: 100%;
+
+    }
+
+    .checklinewrapper::before {
+        display: table;
+        content: '';
+        line-height: 0;
+        font-size: 0;
+    }
+
+    .checklinewrapper::after {
+        display: table;
+        content: '';
+        line-height: 0;
+        font-size: 0;
+    }
+
+    .checklinewrapper span {
+        font-size: 12px !important;
+        line-height: 16px !important;
+        color: rgb(86, 89, 89);
+        font-weight: 400;
+
+
+    }
+
+    .cardsection-firstcard {
+        grid-column: auto / span 12;
+        min-width: 0;
+        width: auto;
+        display: block;
+        font-size: 15px;
+        line-height: 20.25px;
+    }
+
+    .cardsection-firstcardwrapper {
+        padding: 0 4px;
+        height: 100%;
+
+    }
+
+    .cardsection-firstcardwrapper::before {
+        margin-bottom: -1px;
+        content: ' ';
+        display: block;
+        height: 1px;
+
+
+    }
+
+    .cardsection-firstcardwrapper::after {
+        margin-top: -1px;
+        content: ' ';
+        display: block;
+        height: 1px;
+
+    }
+
+    .carsection-margin {
+        margin-bottom: 8px !important;
+        height: calc(100% - 8px);
+
+    }
+
+    .carsectionbefafter {
+        border: 1px solid #f5f5f5;
+        border-radius: 4px;
+        transform: translate3d(0, 0, 0);
+        overflow: hidden;
+        position: relative;
+        font-size: 15px;
+        line-height: 20.25px;
+    }
+
+    .carsectionbefafter::before {
+        content: ' ';
+        display: block;
+        height: 1px;
+        margin-bottom: -1px;
+    }
+
+    .carsectionbefafter::after {
+        content: ' ';
+        display: block;
+        height: 1px;
+        margin-top: -1px
+    }
+
+    .cardsectionflex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        width: auto;
+        min-width: 0;
+        padding: 0;
+        margin: 0 -8px 0 -4px;
+        align-items: stretch;
+        overflow: visible;
+
+    }
+
+    .smalladdoption {
+        display: flex;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin-bottom: 0;
+
+
+    }
+
+    .addbuttonspan {
+        height: 48px;
+        width: 48px;
+
+    }
+
+    .addbuttonboxsh {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0 0 4px 0 rgba(17, 17, 17, .3);
+        position: absolute;
+        top: 9px;
+        left: 8px
+    }
+
+    .imageaddbuttonspan img {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        vertical-align: top;
+        max-width: 100%;
+        border: 0;
+        height: 24px;
+        width: 24px;
+
+    }
+
+    .mimage-cardsection {
+        position: relative;
+        display: block;
+        outline: 0 !important;
+        height: 100%;
+        font-weight: 400 !important;
+    }
+
+    .mimage-cardheightcalc {
+        display: block;
+        width: calc(.41667 * (100vw - 8px));
+        overflow: visible;
+        height: 100%;
+
+    }
+
+    .mimage-card-flex {
+        display: flex;
+        flex-direction: column;
+        padding: 0 4px;
+        height: 100%;
+    }
+
+    .mimage-card-flex::before {
+        content: ' ';
+        display: block;
+        height: 1px;
+        margin-top: -1px;
+    }
+
+    .mimage-card-flex::after {
+        content: ' ';
+        display: block;
+        height: 1px;
+    }
+
+.mimage-card-bg{
+    background: #f8f8f8;
+    box-sizing: border-box;
+    border:none;
+
+}
+.bestsellersec{
+        text-decoration: none;
+    display: inline-block;
+    margin: 4px 0 0 4px !important;
+}
+
+.bestsellergrid{
+     display: grid;
+     background-color: #D14900 !important;
+    border-radius: 4px 4px 4px 4px !important;
+    padding: 1px 4px 1px 4px !important;
+    height: 20px;
+    align-content: center;  
+    position: relative;
+    max-width: 160px !important;
+
+
+}
+
+.finalbestsellerdiv{
+    color: #fff !important;
+    text-overflow: ellipsis;
+    overflow: hidden !important;
+    white-space: nowrap;
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    height: 18px;
+}
+
+.mbphonesectionconatiner{
+    
+}
+
+
+
+
+
+
+
+
+}
