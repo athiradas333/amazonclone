@@ -7,23 +7,31 @@
 body {
     margin: 0;
     padding: 0;
-    /* padding-bottom: 1000px; */
+    
 }
 
-.mobileview {
-    display:none;
-}
+
 
 @font-face {
     font-family: 'regular';
     src: url(font/font/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_\ \(1\).woff2);
+
 }
-
-
 @font-face {
     font-family: 'bold';
     src: url(font/AmazonEmber_Bd.ttf);
 }
+
+@font-face {
+    font-family: 'light';
+    src: url(font/font/Dv1WQ5DdeMS5qP7.woff2);
+}
+
+@font-face {
+    font-family: 'med';
+    src: url(font/font/VjTR4RqBzY0mUYx.woff2);
+}
+
 
 
 .header .nav-top {
@@ -235,7 +243,7 @@ body {
     cursor: pointer;
     float: left;
     font-size: 14px;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: 15px;
     /* letter-spacing: 0.25px; */
     padding-bottom: 1px;
@@ -869,7 +877,7 @@ body {
 .all {
     display: block;
     font-size: 14px;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: 12px;
     padding-left: 5px;
     white-space: nowrap;
@@ -1156,7 +1164,7 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
     padding-left: 4px;
     padding-right: 4px;
     margin-top: 10px;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     color: rgb(15, 17, 17);
     font-family: "regular", Arial, sans-serif;
     font-size: 14px;
@@ -1169,6 +1177,11 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
     justify-content:flex-start;  */
 
 }
+body > div.desktop > header > div > div.finalnavbar > div > div > div{
+    transform:translateY(-1px);
+}
+
+
 
 
 .sort-button {
@@ -1338,8 +1351,16 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
     word-break: break-word;
     margin-bottom: 0;
 }
+h2{
+    font-weight: unset;
+}
+body > div.desktop > header > div > div.nav-main > div.navcside > ul > li:nth-child(1){
+    padding-right: 4.65px;
+}
 
-
+body > div.desktop > header > div > div.nav-main > div.navcside > ul > li:nth-child(6){
+    padding-right:4.55px;
+}
 
 .categorysec {
     display: block;
@@ -1353,7 +1374,7 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
     margin-bottom: 8px;
     font-size: 14px;
     line-height: 16px;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: rgb(15, 17, 17);
     font-family: "bold", Arial, sans-serif;
 
@@ -1412,7 +1433,7 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
     margin-bottom: 4px;
     list-style: none;
     font-size: 14px;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: 16px;
     text-align: left;
     font-family: "bold", Arial, sans-serif;
@@ -1572,7 +1593,7 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
     margin-bottom: 8px;
     line-height: 16px;
     font-size: 14px;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-family: "bold", Arial, sans-serif;
 
 
@@ -1670,7 +1691,7 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
 .pricetext {
     font-size: 14px;
     line-height: 16px;
-    font-weight: 700;
+    /* font-weight: 700; */
     margin-bottom: 4px;
     font-family: "bold", Arial, sans-serif;
 
@@ -1695,8 +1716,9 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
     box-sizing: border-box;
     font-size: 14px;
     line-height: 16px;
-    font-weight: 700;
-    font-family: "bold", Arial, sans-serif;
+    /* font-weight: 700; */
+    font-family: "bold", Arial, sans-serif !important;
+    font-weight:unset;
     color: rgb(15, 17, 17);
 
 
@@ -2032,7 +2054,7 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
 
 .cardresultsec h2 {
     font-size: 20px;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: 28px;
     margin: 0;
     padding: 0;
@@ -2888,7 +2910,7 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
 .text-need-help span {
     margin-bottom: 8px;
     font-size: 20px;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: 28px;
     font-family: "bold", Arial, sans-serif;
 
@@ -3088,7 +3110,7 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
 
 .footermainheading {
     line-height: 16.8px;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: #FFF;
     font-size: 16px;
     margin: 6px 0 14px 0;
@@ -3513,6 +3535,9 @@ body>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
     color: #DDD;
 
 
+}
+.mobileview {
+    display:none !important;
 }
 
 .mbsamsungsection{
