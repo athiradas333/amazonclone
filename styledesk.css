@@ -2453,7 +2453,6 @@ body>div.desktop>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
     padding-right: 8px;
     margin-bottom: 8px;
 
-
 }
 
 .phonecabout {
@@ -2514,8 +2513,8 @@ body>div.desktop>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
 }
 
 .phstar {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: fit-content;
     font-size: 12px;
     line-height: 16px;
     box-sizing: border-box;
@@ -2674,6 +2673,7 @@ body>div.desktop>header>div>div.nav-main>div.navcside>ul>li:nth-child(6) {
     color: rgb(86, 89, 89);
     text-decoration: line-through;
     font-family: "regular", Arial, sans-serif;
+    /* margin-right:3px; */
 
 
 
