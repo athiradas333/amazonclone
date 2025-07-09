@@ -1603,6 +1603,9 @@
         /* text-align:center; */
         line-height: 12px;
         font-size: 14px;
+    
+
+
 
 
 
@@ -1642,6 +1645,8 @@
         transform: translateY(-2px);
         line-height: 10px;
         margin-top:2px;
+        margin-top:3px;
+        transform:translateY(0.1px);
 
     }
 
