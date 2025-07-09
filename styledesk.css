@@ -1184,6 +1184,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding-left: 0;
+    height: 100%;
 }
 
 .ulnavside li {
